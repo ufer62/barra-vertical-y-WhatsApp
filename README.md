@@ -1,0 +1,1 @@
+# barra-vertical-y-WhatsApp
