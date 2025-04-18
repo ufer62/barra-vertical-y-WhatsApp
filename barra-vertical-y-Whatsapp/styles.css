@@ -1,0 +1,82 @@
+/* VARIABLES */
+:root {
+  --width-iconos: 35px;
+  --height-iconos: 35px;
+  --transform: rotate(90deg);
+}
+
+/* ESTE ES EL NAV IZQUIERDO */
+.container-logos {
+  display: flex;
+  border:  solid 2px  black;
+  border-radius: 10px 10px 10px 10px;
+  align-items: center;
+  justify-content: space-around;
+  width: 35%;
+  height: 10%;
+  position: fixed;
+  transform: rotate(-90deg);
+  top: 40%;
+  left: -15%;
+}
+/* TAMAÑO DE LOS ICONOS */
+#icono-facebook,
+#icono-instagram,
+#icono-tik-tok {
+  width: var(--width-iconos);
+  height: var(--height-iconos);
+  transform: var(--transform);
+}
+#icono-twitter {
+  width: 70px;
+  height: 45px;
+  transform: var(--transform);
+}
+#icono-youtube {
+  width: 40px;
+  height: 50px;
+  transform: var(--transform);
+}
+/* ANIMACION AL PASAR EL MOUSE SOBRE LOS ICONOS */
+.item-facebook:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+.item-instagram:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.item-tik-tok:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+.item-twiter:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+.item-youtube:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+/* BOTON DE WHATSAPP */
+.container-whatsapp {
+  display: flex;
+  align-items: center;
+  width: 35%;
+  height: 10%;
+  position: fixed;
+  transform: rotate(-90deg);
+  top: 40%;
+  right: -14%;
+}
+.item-whatsapp:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
